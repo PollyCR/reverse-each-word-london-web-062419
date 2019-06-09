@@ -1,4 +1,4 @@
-def reverse_each_word(string)
-  array = string.split
-  array.reverse_each {{|word| print word, " " }
+def reverse_each_word_with_each(string)
+  array = string.split(" ")
+  return array
 end 
